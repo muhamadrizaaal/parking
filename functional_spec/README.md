@@ -51,17 +51,16 @@ parking_lot/
 1. Clone repository ini atau ekstrak zip yang diberikan.
 2. Navigasikan ke direktori proyek `parking_lot`.
 3. Jalankan perintah berikut di terminal untuk mengatur proyek dan menjalankan pengujian:
-   $ bin/setup
+   `$ bin/setup`
 
 - Menjalankan Aplikasi
-Untuk menjalankan aplikasi, gunakan perintah berikut:
-   $ bin/parking_lot <nama_file_input>
+1. Untuk menjalankan aplikasi, gunakan perintah berikut:
+   `$ bin/parking_lot <nama_file_input>`
 
 Contoh:
-   $ bin/parking_lot file_inputs.txt
+   `$ bin/parking_lot file_inputs.txt`
 
 - Format Perintah
-Aplikasi ini menerima perintah berikut melalui file input:
 1. Membuat tempat parkir:
     create_parking_lot {capacity}
 
