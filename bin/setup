@@ -1,0 +1,8 @@
+#!/bin/bash
+# Install dependencies, compile code and run tests
+
+# Compile the code
+go build -o parking_lot ./cmd/parking_lot
+
+# Run unit tests
+go test ./...
