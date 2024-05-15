@@ -13,44 +13,11 @@ Proyek ini adalah sistem otomatis untuk mengelola parkir mobil di sebuah tempat 
 - Go 1.16 atau lebih baru
 - Sistem operasi Unix (Linux, macOS)
 
-## Struktur Direktori
-parking_lot/
-│
-├── bin/
-│   ├── setup
-│   └── parking_lot
-│
-├── cmd/
-│   └── parking_lot/
-│       └── main.go
-│
-├── functional_spec/
-│   └── README.md
-│
-├── internal/
-│   ├── app/
-│   │   └── parking_lot.go
-│   ├── domain/
-│   │   └── models.go
-│   ├── infra/
-│   │   └── repository.go
-│   └── usecases/
-│       ├── park.go
-│       ├── leave.go
-│       ├── status.go
-│       └── create_parking_lot.go
-│
-├── test/
-│   └── parking_lot_test.go
-│
-└── go.mod
-
-
 ## Cara Menjalankan Proyek
 - Setup
 1. Clone repository ini atau ekstrak zip yang diberikan.
 2. Navigasikan ke direktori proyek `parking_lot`.
-3. Jalankan perintah berikut di terminal untuk mengatur proyek dan menjalankan pengujian:
+3. Jalankan perintah berikut di terminal untuk menginstal dependensi, mengkompilasi kode, dan menjalankan tes unit:
    `$ bin/setup`
 
 - Menjalankan Aplikasi
